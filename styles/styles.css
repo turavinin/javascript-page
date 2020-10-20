@@ -1,0 +1,318 @@
+
+/* GLOBAL */
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #e2e2e2;
+}
+
+
+
+
+/* MOBILE FIRST */
+
+
+                /* NAV BAR */
+
+#navbar {
+  display: block;
+  text-align: center;
+}
+
+#nav-hdr {
+  font-size: 3rem;
+  margin: 25px 0;
+}
+
+.nav-ul {
+  font-size: 2.5rem;
+  text-align: start;
+  line-height: 1.5;
+  height: 150px;
+
+  border: 1px solid #000000;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.nav-ul > li {
+  position: relative;
+  display: list-item;
+  border-bottom: 1px solid #696969;
+  padding-left: 10px;
+}
+
+.nav-ul > li:last-of-type {
+  position: relative;
+  display: list-item;
+  border-bottom: none;
+}
+
+.nav-ul > li > a {
+  text-decoration: none;
+  color: #383838;
+  font-size: 2rem;
+}
+
+
+                /* MAIN */
+
+#main-doc {
+  display: block;
+  margin: 10px 10px;
+  text-align: justify;
+}
+
+                /* INTRODUCTION */
+
+#hdr-introduction {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+#introduction > p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0 20px;
+}
+
+#introduction > ul {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+#introduction > ul > li {
+  list-style-type: disc;
+  margin: 10px 20px 0 50px;
+  padding-bottom: 15px;
+}
+
+
+                /* ALREADY KNOW*/
+
+#hdr-already-know {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+#what_you_should_already_know > p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0 20px;
+  margin-bottom: 10px;
+}
+
+#what_you_should_already_know > ul {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+#what_you_should_already_know > ul > li {
+  list-style-type: disc;
+  margin: 0px 20px 0 50px;
+}
+
+
+                /* JAVASCRIPT */
+
+#hdr-javasript-java {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+#javascript_and_java > p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0 20px;
+  margin-bottom: 10px;
+}
+
+
+                /* HELLO WORLD */
+
+#hdr-hello-world {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+#hello_world > p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0 20px;
+  margin-bottom: 10px;
+}
+
+#hello_world > pre {
+  background-color:  #f4f4f4;
+  border: 1px solid rgba(143, 143, 143, 0.479);
+  border-left: 3px solid #2e1308;
+  color: #666;
+  page-break-inside: avoid;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  word-wrap: break-word;
+}
+
+                /* VARIABLES */
+
+#hdr-variables {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+#variables > p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0 20px;
+  margin-bottom: 10px;
+}
+
+
+              /* DECLARING VARIABLES */
+
+#hdr-declaring_variables {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+#declaring_variables > p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0 20px;
+  margin-bottom: 10px;
+}
+
+#declaring_variables > pre {
+  background-color:  #f4f4f4;
+  border: 1px solid rgba(143, 143, 143, 0.479);
+  border-left: 3px solid #2e1308;
+  color: #666;
+  page-break-inside: avoid;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  word-wrap: break-word;
+}
+
+
+              /* VARIABLE SCOPE */
+
+#hdr-variable-scope {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+#variable_scope > p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0 20px;
+  margin-bottom: 10px;
+}
+
+#variable_scope > pre {
+  background-color:  #f4f4f4;
+  border: 1px solid rgba(143, 143, 143, 0.479);
+  border-left: 3px solid #2e1308;
+  color: #666;
+  page-break-inside: avoid;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  word-wrap: break-word;
+}
+
+
+              /* GLOBAL VARIABLES */
+
+#hdr-global-variables {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+#global_variables > p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0 20px;
+  margin-bottom: 10px;
+}
+
+
+              /* CONSTANTS */
+
+#hdr-constants {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+#constants > p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0 20px;
+  margin-bottom: 10px;
+}
+
+#constants > pre {
+  background-color:  #f4f4f4;
+  border: 1px solid rgba(143, 143, 143, 0.479);
+  border-left: 3px solid #2e1308;
+  color: #666;
+  page-break-inside: avoid;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  word-wrap: break-word;
+}
+
+
+              /* REFERENCE */
+
+#hdr-reference {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+#what_you_should_already_know > p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0 20px;
+  margin-bottom: 10px;
+}
+
+#reference > ul {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+#reference > ul > li {
+  list-style-type: disc;
+  margin: 0px 20px 50px 50px;
+}
+
+#reference > ul > li > a {
+  text-decoration: underline;
+  color: #000000
+}
+
+
+
+
+
+
+
